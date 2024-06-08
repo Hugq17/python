@@ -8,7 +8,7 @@ print("c is ", type(c))
 #phần real
 print("real c is ", c.real)
 #phần ảo
-print("real c is ", c.imag)
+print("Fake c is ", c.imag)
 
 # ------------------------------------------------------- #
 
