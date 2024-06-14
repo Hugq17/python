@@ -88,3 +88,53 @@ print(slice2)
 country = "abcdefghi"
 print(country[::-2])
 
+# Skipping Characters While Slicing
+# 0: điểm bắt đầu, 6: là điểm kết thúc, 2: là step
+language1 = 'Python'
+pto = language1[0:2:6]
+print(pto)
+
+# String method
+# capitalize: ghi hoa chữ đầu
+ab = "quang Hung"
+print(ab.capitalize())
+
+# count: đếm cụm từ có bao nhiêu trong chuỗi, và đếm từ khoảng bao nhiêu
+ac = "Hello, how are you today"
+print(ac.count('o'))
+print(ac.count('o', 4, 14))
+
+# endswith: kiểm tra từ đó có phải kết thúc ở từ được chọn
+ad = "abcdefghqj"
+print(ad.endswith('j'))
+
+# expandtabs: thêm dấu \t ở mỗi cụm từ muốn ngăn cách 
+ae = "Toi\tTen\tHung"
+print(ae.expandtabs())
+
+# find: tìm ký tự ở vị trí nào
+af = "a b c d e j h h f w a"
+print(af.find('b'))
+
+# rfind: tìm ký tự nhưng lại tìm từ dưới lên trên
+ag = "a b d c d e f a"
+print(af.rfind("a"))
+
+# rindex: lấy giá trị tìm thấy ở vị trí sau cùng
+ah = "Toi ten la Hung, toi nam nay 25 tuoi"
+print(len(ah))
+print(ah.rindex('i'))
+
+# isalnum: kiểm tra chuỗi đó phải chuỗi ký tự *( bao gồm chữ và số)
+ai = "ToitenHung"
+print(ai.isalnum())
+
+# isalpha: kiểm tra chuỗi đó phải từ a - z, A - Z
+aj = "ToiTenHung"
+print(aj.isalpha())
+
+# isdecimal: kiểm tra chuỗi đó phải ký tự thập phân không
+aq = "123123123.3"
+print("isdecimal: ", aq.isdecimal())
+
+# isdigit: 
